@@ -76,6 +76,7 @@ app.layout = html.Div(
 	html.H1("Military Expenditure as a Percentage of GDP", style = {"text-align":"center", "color": "#fde725", "font-family": "Futura"}),
 
 	dcc.Graph(id='military_map', figure={}),
+	html.Br(),
 
 	dcc.Slider(id = "select_year",
 		updatemode = "drag",
